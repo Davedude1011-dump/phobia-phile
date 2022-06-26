@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding:  0;
+}
+
+body {
+    background-color: blanchedalmond;
+}
+
+.boxShape {
+    position: absolute;
+    height: 70vh;
+    width: 90%;
+    background-color: transparent;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.boxMain {
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    bottom: 0;
+    background-color: white;
+    border-radius: 15px;
+    border: black 2px solid;
+    overflow-y: scroll;
+}
+
+.boxBar {
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    top: 0;
+    background-color: transparent;
+}
+
+.boxBars {
+    position: absolute;
+    height: 80%;
+    width: 15%;
+    top: 0;
+    border-radius: 15px;
+    border: black 2px solid;
+    cursor: pointer;
+}
+.boxBars:hover {
+    background-color: white;
+}
+#boxBar1 {
+    background-color: white;
+}
+#boxBar2 {
+    left: 16%;
+    background-color: lightgrey;
+}
+#boxBar3 {
+    left: 32%;
+    background-color: lightgrey;
+}
+.boxBarText {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+
+#common {
+    display: block;
+}
+#rare {
+    display: none;
+}
+#strange {
+    display: none;
+}
+
+table {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 95%;
+    top: 1%;
+}
+
+td {
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+.long {
+    width: 80%
+}
+.short {
+    width: 20%
+}
+.name {
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.titleBox {
+    position: absolute;
+    width: 80%;
+    height: 10vh;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: transparent;
+}
+
+.titleText {
+    position: absolute;
+    left: 20%;
+    transform: translate(-50%);
+    font-size: 70px;
+    letter-spacing: 2px;
+}
