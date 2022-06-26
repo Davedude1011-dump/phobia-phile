@@ -45,9 +45,6 @@ body {
     border: black 2px solid;
     cursor: pointer;
 }
-.boxBars:hover {
-    background-color: white;
-}
 #boxBar1 {
     background-color: white;
 }
